@@ -5328,7 +5328,7 @@ spec:
                   type: array
                 agentNamespace:
                   description: AgentNamespace defaults to the system namespace, e.g.
-                    cattle-fleet-system.
+                    zks-fleet-system.
                   nullable: true
                   type: string
                 agentResources:
@@ -5533,7 +5533,7 @@ spec:
                       type: string
                     namespace:
                       description: Namespace is the namespace of the agent deployment,
-                        e.g. "cattle-fleet-system".
+                        e.g. "zks-fleet-system".
                       nullable: true
                       type: string
                   type: object

@@ -51,7 +51,7 @@ bootstrap:
   # The namespace that will be autocreated and the local cluster will be registered in
   namespace: fleet-local
   # The namespace where the fleet agent for the local cluster will be ran, if empty
-  # this will default to cattle-fleet-system
+  # this will default to zks-fleet-system
   agentNamespace: "zks-fleet-system"
   # A repo to add at install time that will deploy to the local cluster. This allows
   # one to fully bootstrap fleet, its configuration and all its downstream clusters
