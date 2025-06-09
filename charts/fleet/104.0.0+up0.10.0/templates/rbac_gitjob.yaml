@@ -103,7 +103,7 @@ roleRef:
 subjects:
   - kind: ServiceAccount
     name: gitjob
-    namespace: {{ .Release.Namespace }}
+    namespace: {{ .Values.bootstrap.namespace }}
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1

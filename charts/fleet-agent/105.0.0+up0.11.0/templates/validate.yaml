@@ -1,4 +1,4 @@
-{{if ne .Release.Namespace .Values.internal.systemNamespace }}
+{{if ne .Values.internal.systemNamespace .Values.internal.systemNamespace }}
 {{ fail (printf "This chart must be installed in the namespace %s as the release name fleet-agent" .Values.internal.systemNamespace) }}
 {{end}}
 
