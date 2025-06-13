@@ -51,7 +51,7 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: fleet-controller
-  namespace: {{.Values.bootstrap.namespace}}
+  namespace: {{.Release.Namespace}}
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1
@@ -110,5 +110,5 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: fleet-controller-bootstrap
-  namespace: {{.Values.bootstrap.namespace}}
+  namespace: {{.Release.Namespace}}
 {{- end }}
