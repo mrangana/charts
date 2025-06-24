@@ -1,6 +1,6 @@
 image:
   os: "windows,linux"
-  repository: rancher/fleet-agent
+  repository: mrangana/fleet-agent
   tag: v0.9.13
 
 # The public URL of the Kubernetes API server running the Fleet Manager must be set here
